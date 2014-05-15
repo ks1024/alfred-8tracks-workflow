@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>alfred8tracks</string>
+	<key>connections</key>
+	<dict>
+		<key>380EAA0D-C8AA-44B7-98D1-76EBDDD164FE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>52109FF7-8025-4F79-B554-4E423D19D80C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kuangshi Yan</string>
+	<key>description</key>
+	<string>Get mixes on 8tracks</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>8tracks</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>52109FF7-8025-4F79-B554-4E423D19D80C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>8tracks</string>
+				<key>runningsubtext</key>
+				<string>Searching...</string>
+				<key>script</key>
+				<string>require_once('8tracks_helper.php');
+echo huittracks_helper("{query}");</string>
+				<key>subtext</key>
+				<string>Find mixes on 8tracks</string>
+				<key>title</key>
+				<string>Search 8tracks</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>380EAA0D-C8AA-44B7-98D1-76EBDDD164FE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>380EAA0D-C8AA-44B7-98D1-76EBDDD164FE</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>52109FF7-8025-4F79-B554-4E423D19D80C</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
