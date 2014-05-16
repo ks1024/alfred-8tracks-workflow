@@ -16,6 +16,12 @@ Below is a list of the commands that the workflow provides. Parameters in bracke
 
 If you find yourself having a hard time remembering the commands, remember that they will show up in autocompletion if type only **_8tracks_**. 
 
+Attribution
+======
+- [Alfred Workflow Class](http://dferg.us/workflows-class/) by David Ferguson
+- [8tracks icon](http://www.iconarchive.com/show/circle-icons-by-martz90/8tracks-icon.html) by Martz90
+
+
 About
 ======
 This workflow is developed by [@yankuangshi](mailto:yankuangshi@gmail.com?Subject=alfred_8tracks_workflow)
