@@ -1,5 +1,7 @@
 8tracks Workflow for Alfred 2.0
 =======
+[Download](https://github.com/yankuangshi/alfred-8tracks-workflow/blob/master/8tracks.alfredworkflow?raw=true)
+
 A workflow for Alfred 2.0 which let you quickly search for 8tracks mixes and have them returned to Alfred.
 
 Usage
