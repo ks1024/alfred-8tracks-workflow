@@ -6,7 +6,11 @@ A workflow for Alfred 2.0 which let you quickly search for 8tracks mixes and hav
 
 Usage
 ======
-Type **8tracks** followed by a search query will show the results for the query. For example, **8tracks mostpopular** will search for the most popular mixes on 8tracks.
+Type `8tracks` followed by a search query will show the results for the query. For example, `8tracks mostpopular` will search for the most popular mixes on 8tracks.
+
+Screenshot
+======
+
 
 Commands
 ======
